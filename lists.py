@@ -102,5 +102,7 @@ def smallest_n_items(items, n):
         >>> smallest_n_items([1, 1, 1, 1, 1, 1], 2)
         [1, 1]
     """
-
-    return []
+    items.sort()
+    print(items)
+    return items[n-1::-1]
+print(smallest_n_items([2, 6006, 700, 42, 6, 59], 3))
