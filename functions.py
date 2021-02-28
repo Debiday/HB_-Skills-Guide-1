@@ -1,6 +1,6 @@
 """SKILLS: FUNCTIONS
 
-Please complete the following promps.
+Please complete the following prompts.
 """
 
 #################### PART 1 ####################
@@ -23,7 +23,7 @@ Return:
 
 # Write your function here
 def hometown(name):
-    """function to test whether name of hometown is san francisco"""
+    """Function to test whether name of hometown is San Francisco"""
     if name.lower == "san francisco":
         return True
     else:
@@ -47,7 +47,7 @@ Return:
 
 # Write your function here
 def full_name(first_name, last_name):
-    """function that combines first and last name"""
+    """Function that combines first and last name"""
     fullname = first_name + " " + last_name
     return fullname
 
